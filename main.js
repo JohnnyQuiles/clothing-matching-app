@@ -34,7 +34,7 @@ const filteredTypeClothes = clothing.filter(e => {
     }
 })
 
-const filterdTops = filteredTypeClothes.filter(e => {
+const topFilter = filteredTypeClothes.filter(e => {
     if (e.type === "top") {
         return e
     }
@@ -44,7 +44,7 @@ const filterdBottoms = filteredTypeClothes.filter(e => {
         return e
     }
 })
-const filterdShoes = filteredTypeClothes.filter(e => {
+const shoesFilter = filteredTypeClothes.filter(e => {
     if(e.type === "shoes") {
         return e
     }
@@ -56,14 +56,13 @@ const randomIndex = arr => {
 }
 
 // Set img urls
-topImg.src = filterdTops[randomIndex(filterdTops)].imageUrl
+topImg.src = topFilter[randomIndex(topFilter)].imageUrl
 bottomImg.src = filterdBottoms[randomIndex(filterdBottoms)].imageUrl
-shoesImg.src = filterdShoes[randomIndex(filterdShoes)]
+shoesImg.src = shoesFilter[randomIndex(shoesFilter)].imageUrl
 
 // Set onClick
 tryAgain.onclick = () => {
-    console.log("click");
-    topImg.src = filterdTops[randomIndex(filterdTops)].imageUrl
+    topImg.src = topFilter[randomIndex(topFilter)].imageUrl
     bottomImg.src = filterdBottoms[randomIndex(filterdBottoms)].imageUrl
-    shoesImg.src = filterdShoes[randomIndex(filterdShoes)].imageUrl
+    shoesImg.src = shoesFilter[randomIndex(shoesFilter)].imageUrl
 }
