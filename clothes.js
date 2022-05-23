@@ -1,4 +1,3 @@
-
 const clothing = [
     {
         description: 'Michael Kors Blue Dress Shirt',
@@ -55,6 +54,18 @@ const clothing = [
         imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/0/optimized/21824750_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$&fmt=webp',
     },
     {
+        description: 'Black Dress Shoes',
+        type: "shoes",
+        dressCode: 'formal',
+        imageUrl: 'https://cdnz.blacklapel.com/thecompass/2018/11/types-of-dress-shoes-black-oxford.jpg',
+    },
+    {
+        description: 'Brown Dress Shoes',
+        type: "shoes",
+        dressCode: 'formal',
+        imageUrl: 'https://b-edge.friartux.com/f00000000189637/www.friartux.com/pub/media/catalog/product/cache/99597e75168f9986720e6d61dd2d50f8/l/i/light-brown_1.jpg',
+    },
+    {
         description: 'Adidas High Top Sneakers',
         type: "shoes",
         dressCode: 'sport',
@@ -67,7 +78,7 @@ const clothing = [
         imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/2/optimized/524862_fpx.tif?$thumb$&wid=376',
     },
     {
-        description: 'Sperry Brown Shoes',
+        description: 'Lacoste Blue Shoes',
         type: "shoes",
         dressCode: 'casual',
         imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/6/optimized/21650286_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$&fmt=webp',
@@ -81,7 +92,7 @@ const clothing = [
     {
         description: 'Dress Blue Pants',
         type: "bottom",
-        dressCode: 'casual',
+        dressCode: 'formal',
         imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/1/optimized/8353081_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$&fmt=webp',
     },
     {
@@ -100,12 +111,12 @@ const clothing = [
         description: 'Adidas Track Pants',
         type: "bottom",
         dressCode: 'sport',
-        imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/3/optimized/11786133_fpx.tif?$browse$&wid=376&fmt=webp',
+        imageUrl: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d80911fe0e24f8eb67fac3800e8bee0_9366/Tiro_21_Sweat_Pants_Black_GM7336_21_model.jpg',
     },
     {
         description: 'Adidas Jogger Pants',
         type: "bottom",
         dressCode: 'sport',
-        imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/3/optimized/11786133_fpx.tif?$browse$&wid=376&fmt=webp',
+        imageUrl: 'https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f5bf3559e3514ebc8afeac840145abf8_9366/tiro-21-sweat-pants.jpg',
     },
 ];
